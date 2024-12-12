@@ -4,8 +4,15 @@
     { "path": "./tsconfig.app.json" },
     { "path": "./tsconfig.node.json" }
   ],
-  "baseUrl": "/.",
-  "*/@": ["*/src"],
-  "resolveJsonModule" : true,
-  "esModuleInterop" : true
+//  "baseUrl": "/.",
+//  "*/@": ["*/src"],
+//  "resolveJsonModule" : true,
+//  "esModuleInterop" : true
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@components": ["src/components"]
+    },
+    "strict": true
+  }
 }
