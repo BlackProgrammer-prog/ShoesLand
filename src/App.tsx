@@ -3,12 +3,13 @@
 // import viteLogo from '/vite.svg'
 import './App.css';
 import './index.css';
+import Login from './Login.tsx';
 
 function App() {
   return (
-    <>
-
-    </>
+    <div>
+      <Login></Login>
+    </div>
   )
 }
 
