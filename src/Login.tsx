@@ -63,14 +63,14 @@ function Login() {
         event.preventDefault();
         if (!CheckEmail(email)){
             setEmailError("ایمیل معتبر نیست");
-            console.log("ایمیل معتبر نیست")
+            console.log("ایمیل معتبر نیست");
         }
         else {
             setEmailError("");
         }
         if (!CheckPassword(password)){
             setPasswordError("پسورد باید حداقل یکی از کاراکترهای @#$! را شامل باشد");
-            console.log("پسورد باید حداقل یکی از کاراکترهای @#$! را شامل باشد")
+            console.log("پسورد باید حداقل یکی از کاراکترهای @#$! را شامل باشد");
         }
         else {
             setPasswordError("");

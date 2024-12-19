@@ -1,26 +1,41 @@
 {
-    "users": [
-      { "id": 1,
-        "UserName": "parham",
-        "email": "aziziparham2020@gmail.com",
-        "password": "123456789@",
-        "cart": [],
-        "orders": [],
-        "wishlist": []
-      }
-    ],
-    "comments": [
-      { "id": 1,
-        "UserName": "parham",
-        "email": "Your Email",
-        "Password": "1234",
-        "cart": [],
-        "orders": [],
-        "wishlist": []
-      }
-
-    ],
-    "profile": {
-      "name": "typeCode"
+  "users": [
+    {
+      "id": 1,
+      "name": "parham",
+      "family": "Azizi",
+      "UserName": "parham",
+      "email": "aziziparham2020@gmail.com",
+      "gender": "men",
+      "telphone": "09193877635",
+      "password": "123456789@",
+      "cart": [],
+      "orders": [],
+      "wishlist": []
+    },
+    {
+      "id": "2147",
+      "name": "parham",
+      "family": "azizi",
+      "username": "parhamazizi",
+      "email": "parham@gmail.com",
+      "TelPhone": "09193877635",
+      "password": "Parham@1385",
+      "gender": "مرد"
     }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "UserName": "parham",
+      "email": "Your Email",
+      "Password": "1234",
+      "cart": [],
+      "orders": [],
+      "wishlist": []
+    }
+  ],
+  "profile": {
+    "name": "typeCode"
   }
+}
